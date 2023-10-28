@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.music-player p{
+ margin-left: 125px;
+ color: azure;
+}
+
+.music-player h1{
+    margin-left: 50px;
+    color: azure;
+}
