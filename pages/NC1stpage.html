@@ -27,7 +27,9 @@
               <a class="navbar-brand" href="../index.html"
                 ><img src="../assets/display.png" class="imglogo"
               /></a>
+            <h1 style="">B & N TOP 1</h1>
               <button
+        
                 class="navbar-toggler navbar-light bg-light"
                 type="button"
                 data-bs-toggle="offcanvas"
@@ -35,6 +37,7 @@
                 aria-controls="offcanvasNavbar"
                 aria-label="Toggle navigation"
               >
+              
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div
@@ -43,9 +46,9 @@
                 id="offcanvasNavbar"
                 aria-labelledby="offcanvasNavbarLabel"
               >
-              
+              <h1 class="d-flex justify-content-center">B & N TOP 10</h1>
                 <div class="offcanvas-header">
-                  <img src="./images/Unknown-4 copy.png" alt="" />
+                  <img src="../images/Unknown-4 copy.png" alt="" />
                   <button
                     type="button"
                     class="btn-close white"
@@ -56,12 +59,20 @@
                 <div class="offcanvas-body bgNavPic bgNavColor">
                   <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item">
-                      <a class="active navBtn link" href="../index.html">Home</a>
+                      <a class="active navBtn link button" href="../index.html">Home</a>
                     </li>
                     <li class="nav-item">
                       <a
-                        class="active navBtn link"
-                        href="../BH1stpage.html"
+                        class="active navBtn link button"
+                        aria-current="page"
+                        href="../pages/NC1stpage.html"
+                        >Natalia's Playlist</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="active navBtn link button"
+                        href="../pages/BH1stpage.html"
                         >Bria's Playlist</a
                       >
                     </li>
@@ -72,37 +83,27 @@
           </nav>
         </div>
       </div>
-      <div class="row">
-        <div class="col-12 bgImage">
-          <img
-            src="../assets/pink-laptop-computer-vector-10605878.jpg"
-            class="bgImage"
-          />
-          <img src="../assets/jjkn.jpeg" class="pinkScreen" />
-          <img
-            src="./assets/st_small_507x507-pad_600x600_f8f8f8-removebg-preview-3 (2).png"
-            class="slider"
-            alt=""
-          />
-          <img
-            src="../assets/st_small_507x507-pad_600x600_f8f8f8-removebg-preview-4 (2).png"
-            class="pause"
-          />
-          <img src="../assets/musicicon.jpeg" class="musicIcon">
-          <h2>Song</h2>
-          <h4>Artist</h4>
-        </div>
-      </div>
-      <div class="row">
-        <h1>Natalia's TOP 10</h1>
-      </div>
-      <div class="container">
+        <div class="container-fluid bgImage">
+          <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+              <h1 style="color: white; margin-top: 5%; font-size: 70px;">Top 10 Songs</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 d-flex justify-content-center buttonFont mt-4">
+              <a class="button" href="../pages/BH1stpage.html" title="Yes, turtles.">Bria's Playlist</a>
+            </div>
+          </div>
         <div class="row">
-          <div class="col-12">
-           
+          <div class="col-12 d-flex justify-content-center buttonFont mt-4">
+            <a class="button" href="../pages/NC1stpage.html" title="Yes, turtles.">Natalia's Playlist</a>
           </div>
         </div>
-      </div>
+        <div class="buttonContainer">
+       
+        </div>
+        </div>
+    
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
@@ -111,3 +112,4 @@
     ></script>
   </body>
 </html>
+
