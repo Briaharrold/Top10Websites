@@ -2,9 +2,11 @@
 .bgImage{
     background-image: url(../assets/Screenshot\ 2023-10-27\ at\ 7.07.28\ PM.png);
     background-size: cover;
+   height: 700px;
 background-repeat: no-repeat;
-height: 740px;
+
 }
+
 
 .navbar{
     background-color: rgb(247, 140, 158);
@@ -42,7 +44,6 @@ h1{
 
     font-family: Agbalumo;
     color: white;
-    font-size: 10vh;
 }
 
 a.button{
@@ -51,7 +52,7 @@ a.button{
     font:normal normal 300 1.3em 'Agbalumo';
     text-decoration:none; 
     
-    color:rgb(0, 0, 0);
+    color:rgb(255, 248, 248);
     brackground-color:transparent;
     border:1px solid rgb(255, 0, 217);
     border-radius:100px;
@@ -74,12 +75,31 @@ a.button{
     justify-content: center;
   }
   @media (min-width:820px) and (max-width:820px) {
-.bgImage{
-    background-image: url(../assets/phone4532.jpeg);
-    background-size: cover;
+    .bgImage{
+   background-image: url(../assets/second\ pink\ phone\ \(1\)\ \(1\).png);
 background-repeat: no-repeat;
+background-size: cover;
 height: 900px;
+background-color: black;
 }
+
+.buttonFont{
+    font-family: Agbalumo;
+     color: rgb(255, 255, 255); 
+     font-size: 20px;
+}
+
+#hidden{
+    margin-top: 30%;
+}
+#h1{
+    color: black;
+}
+}
+#h1{
+    color: white;
+    font-size: 70px;
+    margin-top: 5%;
 }
 .container-fluid2 {
     display: flex;
